@@ -1,6 +1,10 @@
 # Discogs Fees Calculator
 A simple tool to help see the real amount you will get when you sell an item to a specific destination.
 
+<p align="center">
+  <img src="preview.png" width="900" height="auto" />
+</p>
+
 ## Usage
 
 This tool can be used as a website of it's own, on in any webpage.
@@ -43,7 +47,7 @@ To use it in another website:
 	````html
 	<head>
 		<!-- Needed for Discogs Fees Calculator -->
-		<script type="text/javascript" src="discogsFees/feeCalculator.js"></script>
+		<script type="text/javascript" src="discogsFees/discogsFeesCalculator.js"></script>
 		<!-- End Discogs Fees Calculator -->
 	</head>
 	````
