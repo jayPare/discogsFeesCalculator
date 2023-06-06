@@ -1,4 +1,5 @@
 # Discogs Fees Calculator
+
 A simple tool to help see the real amount you will get when you sell an item to a specific destination.
 
 <p align="center">
@@ -10,65 +11,72 @@ A simple tool to help see the real amount you will get when you sell an item to 
 This tool can be used as a website of it's own, on in any webpage.
 
 To use it in another website:
+
 1. Clone this repo in your website, either using submodule or git clone.
 
 2. Add the following dependencies in your website, with at least the specified version:
 
-	- [Bootstrap@5.3.0-alpha3](https://github.com/twbs/bootstrap)
-	- [jquery@3.6.4](https://github.com/jquery/jquery)
-	- [country-to-currency@1.0.9](https://github.com/thiagodp/country-to-currency)
-	<br /><br />
+   - [Bootstrap@5.3.0-alpha3](https://github.com/twbs/bootstrap)
+   - [jquery@3.6.4](https://github.com/jquery/jquery)
+   - [country-to-currency@1.0.9](https://github.com/thiagodp/country-to-currency)
+     <br /><br />
 
-	Example:
+   Example:
 
-	````html
-	<head>
-		<!-- Needed for Discogs Fees Calculator -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-			crossorigin="anonymous"
-		/>
-		<script
-			src="https://code.jquery.com/jquery-3.6.4.min.js"
-			integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-			crossorigin="anonymous"
-		></script>
+   ```html
+   <head>
+     <!-- Needed for Discogs Fees Calculator -->
+     <link
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+       rel="stylesheet"
+       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+       crossorigin="anonymous"
+     />
+     <script
+       src="https://code.jquery.com/jquery-3.6.4.min.js"
+       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+       crossorigin="anonymous"
+     ></script>
 
-		<script src="https://unpkg.com/country-to-currency@1.0.9/index.umd.js"></script>
-		<!-- End Discogs Fees Calculator -->
-	</head>
-	````
+     <script src="https://unpkg.com/country-to-currency@1.0.9/index.umd.js"></script>
+     <!-- End Discogs Fees Calculator -->
+   </head>
+   ```
 
 3. Add `discogsFeesCalculator.js` in your head:
 
-	Example:
-	````html
-	<head>
-		<!-- Needed for Discogs Fees Calculator -->
-		<script type="text/javascript" src="discogsFees/discogsFeesCalculator.js"></script>
-		<!-- End Discogs Fees Calculator -->
-	</head>
-	````
+   Example:
+
+   ```html
+   <head>
+     <!-- Needed for Discogs Fees Calculator -->
+     <script
+       type="text/javascript"
+       src="discogsFeesCalculator/discogsFeesCalculator.js"
+     ></script>
+     <!-- End Discogs Fees Calculator -->
+   </head>
+   ```
 
 4. Add a div with `discogsFeesCalculator` attribute where you want the tool to appear. Attribute value must be the path to `index.html` from Discogs Fees Calculator.
 
-	Example:
-	````html
-	<article>
-		<div discogsFeesCalculator="discogsFees/index.html"></div>
-	</article>
-	````
+   Example:
+
+   ```html
+   <article>
+     <div discogsFeesCalculator="discogsFeesCalculator/index.html"></div>
+   </article>
+   ```
 
 5. Add a `<script>` element at the end of your webpage, outsite the `<html>` element.
 
-	Example:
-	````html
-	<script>
-		includeDiscogsFeesCalculator();
-	</script>
-	````
+   Example:
+
+   ```html
+   <script>
+     includeDiscogsFeesCalculator();
+   </script>
+   ```
 
 ## Future improvment
 
