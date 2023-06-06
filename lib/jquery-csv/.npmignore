@@ -1,0 +1,9 @@
+.github/
+docs/
+examples/
+package/
+test/
+.git/
+*.tgz
+.travis.yml
+CONTRIBUTING.md
