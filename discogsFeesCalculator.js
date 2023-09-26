@@ -22,6 +22,11 @@ const paypalBaseFees = [
 	    "Guadeloupe",
 	    "Martinique",
 	    "Reunion",
+	  ],
+	  baseFee: 0.029,
+        },
+	{
+	  country: [
 	    "Austria",
 	    "Belgium",
 	    "Denmark",
@@ -468,7 +473,7 @@ const paypalBaseFees = [
 	  case "Guernsey ":
 	  case "Jersey ":
 	  case "United Kingdom":
-	  // https://www.paypal.com/es/webapps/mpp/merchant-fees
+	  // https://www.paypal.com/uk/webapps/mpp/merchant-fees
       
 	  // All countries below have the same Paypal fees.
 	  // See: https://www.paypal.com/bg/webapps/mpp/merchant-fees
