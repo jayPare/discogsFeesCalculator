@@ -2,6 +2,8 @@
 
 A simple tool to help see the real amount you will get when you sell an item to a specific destination.
 
+To see a working example or if you simply want to use the tool, please visit [my website](https://jaypare.com/tools).
+
 <p align="center">
   <img src="preview.png" width="900" height="auto" />
 </p>
@@ -80,8 +82,15 @@ To use it in another website:
 
 ## Future improvment
 
+- Add a checkbox so user can indicate the shipping price he entered is the actual shipping cost of the shipping price he is using on the listing.
 - Add a field for Paypal currency and calculate exchange fees.
 - Add Paypal merchant fee rates for countries where it applies.
+- Add a tab with reverse calculator, i.e.:
+  - You input the price you want to get and the actual shipping cost you pay
+  - You get the item price and shipping price you should sell the item to get this amount after paying Discogs fees, Paypal fees and shipping cost
+- Add a tab for shipping calculator, i.e.:
+  - You input your shipping cost
+  - You get the shipping price you should set on your listing to get the shipping cost you entered after Paypal and Discogs fees
 
 ## Bug or feature request
 
